@@ -1,4 +1,6 @@
 .title{
+
+  color: var(--color-text-error);
     font-size: 3rem;
     font-weight: bold;
     text-align: center;
@@ -47,25 +49,15 @@ body {
 }
 
 body {
-    font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    "Helvetica Neue",
-    YuGothic,
-    "ヒラギノ角ゴ Pro W3",
-    Hiragino Kaku Gothic ProN,
-    Arial,
-    "メイリオ",
-    Meiryo,
-    sans-serif;
-  sans-serif;
-color: var(--color-text-main);
-line-height: 1,8;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic,
+    "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic ProN", Arial,
+    "メイリオ", Meiryo, sans-serif;
+  color: var(--color-text-main);
+  line-height: 1.8;
 }
 
 code {
-    font-family: menlo,
- inconsolata, monospace;
+  font-family: Menlo, Inconsolata, monospace;
 }
 
 a {
