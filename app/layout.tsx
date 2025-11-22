@@ -1,10 +1,16 @@
-import './globals.css'
-import { ReactNode } from 'react'
+import "./globals.css"
 
-export default function RootLayout({ children }: { children: ReactNode }) {
+import Header from "./_components/Header";
+import Footer from "./_components/Footer";
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
 	return (
-		<html lang="en">
-			<body>{children}</body>
+		<html lang="ja">
+			<body>
+				<Header />
+				{children}
+				<Footer />
+			</body>
 		</html>
 	)
 }
