@@ -46,7 +46,7 @@ export default function MembersPage() {
     return (
         <div className={styles.container}>
             {data.contents.length === 0 ? (
-                <p className={styles.nocontents}>メンバー情報がありません。</p>
+                <p className={styles.nocontents}>メンバーが登録されていません。</p>
             ) : (
                 <ul>
                     {data.contents.map((member) => (
