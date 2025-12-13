@@ -31,6 +31,14 @@
     background-color: var(--color-text-unpainted);
 }
 
+.sub::after {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 1px;
+    background-color: var(--color-text-unpainted);
+}
+
 .bgimg {
     position: absolute;
     top: 0;
