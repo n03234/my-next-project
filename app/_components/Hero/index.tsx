@@ -6,12 +6,12 @@ type Props = {
     subtitle: string;
 };
 
-export default function Hero({ title, sub }: Props) {
+export default function Hero({ title, subtitle }: Props) {
     return (
         <section className={styles.container}>
             <div>
                 <h1 className={styles.bgimg}>{title}</h1>
-                <p className={styles.subtitle}>{sub}</p>
+                <p className={styles.subtitle}>{subtitle}</p>
             </div>
             <Image
                 className={styles.image}

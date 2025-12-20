@@ -8,7 +8,7 @@ type Props = {
 export default function NewsLayout({ children }: Props) {
     return (
         <>
-            <Hero title="News" sub="最新のニュースをお届けします。" />
+            <Hero title="News" subtitle="最新のニュースをお届けします。" />
             <Sheet>{children}</Sheet>
         </>
     );
